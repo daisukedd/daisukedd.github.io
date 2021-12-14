@@ -1,27 +1,16 @@
 /* Style Settings */
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --bgColor:#1C1C1C;
     --accentColor: #E6E6E6;
     --font: 'Karla', sans-serif;
+    --font-master: 'Roboto'
 }
 
 body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+    background: #121212;
 }
 
 #userPhoto{
@@ -37,6 +26,18 @@ body {
     color: rgb(255, 255, 255);
     font-size: 1rem;
     font-weight: 600;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font-master);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#infos {
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 590;
     line-height: 1.25;
     display: block;
     font-family: var(--font);
